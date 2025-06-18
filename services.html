@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Rentals & Management Services | Lafo Events | VIP</title>
+    <meta name="description" content="Explore Lafo Events' range of services: VIP lounge rentals, tent rentals, event decor, and management in Pinetown and surrounding areas.">
+    <link rel="icon" href="images/icon.png" type="image">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/27635628873" class="whatsapp-button" target="_blank">
+        <img src="icons/whatsappButton.png" alt="WhatsApp">
+    </a>
+    
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container">
+            <div class="logo-toggle-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Lafo Events" width="150" height="150">
+                    </a>
+                </div>
+                <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+            </div>            
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="contact-button">Contact Us</a>
+        </div>
+        <script>
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('main-header');
+            
+        if (window.scrollY > 100) {
+            header.classList.add('shrink');
+        } else {
+            header.classList.remove('shrink');
+        }
+        });
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const navToggle = document.querySelector(".nav-toggle");
+                const navMenu = document.querySelector(".nav-menu");
+        
+                navToggle.addEventListener("click", () => {
+                    navMenu.classList.toggle("active");
+                });
+            });
+        </script>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Our Services</h1>
+            <p>At Lafo Events, we are dedicated to creating unforgettable moments for your special occasions.</p>
+        </div>
+        <img src="images/heroServices.jpg" alt="Hero Image" class="hero-image">
+    </section>
+    
+    <section class="services-overview">
+        <img src="images/icon.png" alt="Lafo Events Logo">
+        <p>We specialize in a comprehensive range of event management and hiring services designed to make your event truly exceptional. From the initial planning stages to the final execution, we are committed to delivering flawless service, ensuring every detail is taken care of. Whether you're hosting a small intimate gathering or a large-scale celebration, our expertise and resources allow us to tailor our offerings to meet your unique needs. With our wide selection of event solutions, including elegant décor, state-of-the-art tents, and luxurious VIP lounges, Lafo Events guarantees that your special day will be handled with precision, style, and professionalism.</p>
+    </section>
+    
+    <section class="services-list">
+        <div class="service-card primary-card">
+            <h3>Event Management</h3>
+            <img src="icons/event.png" alt="Event Management">
+            <p>From planning to execution, we manage every aspect of your event with precision and professionalism.</p>
+        </div>
+        <div class="service-card">
+            <h3>VIP Lounges</h3>
+            <img src="icons/couch.png" alt="VIP Lounges">
+            <p>Elevate your event with our stylish and comfortable VIP lounges.</p>
+        </div>
+        <div class="service-card">
+            <h3>Frame Tents</h3>
+            <img src="icons/tent1.png" alt="Frame Tents">
+            <p>Perfect for any occasion, our durable frame tents provide a versatile and weather-resistant solution.</p>
+        </div>
+        <div class="service-card">
+            <h3>Stretch Tents</h3>
+            <img src="icons/tent4.png" alt="Stretch Tents">
+            <p>Add a modern touch to your event with our elegant and flexible stretch tents.</p>
+        </div>
+        <div class="service-card">
+            <h3>Caban Tents</h3>
+            <img src="icons/tent2.png" alt="Caban Tents">
+            <p>For a truly luxurious feel, our caban tents offer both beauty and comfort.</p>
+        </div>
+    </section>
+    <section class="gallery-cta">
+        <h2>Explore Our Gallery</h2>
+        <p>See the elegance and creativity of our past events. Check out our gallery to find inspiration for your next occasion!</p>
+        <a href="gallery.html" class="cta-button">View Gallery</a>
+    </section>
+    
+    <section class="cta-section">
+        <h2>Ready to Plan Your Event?</h2>
+        <p>Contact us today for a personalized quote!</p>
+        <a href="contact.html" class="cta-button">Get in Touch</a>
+    </section>
+    
+
+    <footer>
+        <div class="footer-container">
+            <!-- Left: Company Logo & Tagline -->
+            <div class="footer-logo">
+                <h4>Lafo Events | VIP</h4>
+                <img src="images/logo.png" alt="Lafo Events Logo" width="100" height="100">
+            </div>
+    
+            <!-- Center: Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <!-- Right: Contact Info & Social Media -->
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><img src="icons/call-footer.png" alt="Phone Icon"> +27 63 562 8873</p>
+                <p><img src="icons/email-footer.png" alt="Email Icon"> info@lafoevents.com</p>
+                <p><img src="icons/location-footer.png" alt="Address Icon"> 30 Surprise Road, Pinetown, South Africa</p>
+    
+                <!-- Social Media Icons -->
+                <div class="social-media">
+                    <a href="https://wa.me/27635628873" target="_blank">
+                        <img src="icons/whatsapp.png" alt="Instagram Icon">
+                    </a>
+                    <a href="https://web.facebook.com/lafoevents.online" target="_blank">
+                        <img src="icons/facebook.png" alt="Facebook Icon">
+                    </a>
+                    <a href="https://www.tiktok.com/search?q=lafo%20events&t=1729687366132" target="_blank">
+                        <img src="icons/tiktok.png" alt="TikTok Icon">
+                    </a>
+                    <a href="https://www.instagram.com/lafo.events/" target="_blank">
+                        <img src="icons/instagram.png" alt="Instagram Icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Lafo Events & VIP | All Rights Reserved | Website created by <a href="https://linkedin.com/in/siphesihle-mkhwanazi--"  target="_blank">Sphesihle Mkhwanazi</a></p>
+        </div>
+    </footer>
+</body>
+</html>

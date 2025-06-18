@@ -1,0 +1,89 @@
+[03-Dec-2024 13:45:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 36
+[03-Dec-2024 13:45:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 36
+[03-Dec-2024 13:46:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 36
+[03-Dec-2024 13:47:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 36
+[03-Dec-2024 13:47:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 36
+[03-Dec-2024 13:48:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 36
+[03-Dec-2024 15:23:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 36
+[03-Dec-2024 15:31:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:14
+Stack trace:
+#0 /home/ojewpbyb/public_html/sendEmail.php(32): sendEmail('info@lafoevents...', 'Sihle', 'ssmknz1@gmail.c...', 'New testing mes...')
+#1 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 14
+[03-Dec-2024 15:44:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:14
+Stack trace:
+#0 /home/ojewpbyb/public_html/sendEmail.php(32): sendEmail('info@lafoevents...', 'Luvuyo', 'loovoour@gmail....', 'lo')
+#1 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 14
+[03-Dec-2024 15:54:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:14
+Stack trace:
+#0 /home/ojewpbyb/public_html/sendEmail.php(32): sendEmail('info@lafoevents...', 'Luvuyo', 'loovoour@gmail....', 'acvsdfvbfsdb')
+#1 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 14
+[03-Dec-2024 15:56:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:18
+Stack trace:
+#0 /home/ojewpbyb/public_html/sendEmail.php(36): sendEmail('info@lafoevents...', 'Luvuyo', 'loovoour@gmail....', 'c dvsd')
+#1 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 18
+[03-Dec-2024 16:05:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:59
+Stack trace:
+#0 /home/ojewpbyb/public_html/sendEmail.php(73): sendWithdrawalNotification('loovoour@gmail....', '100')
+#1 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 59
+[03-Dec-2024 16:10:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:59
+Stack trace:
+#0 /home/ojewpbyb/public_html/sendEmail.php(73): sendWithdrawalNotification('loovoour@gmail....', '100')
+#1 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 59
+[03-Dec-2024 16:10:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:59
+Stack trace:
+#0 /home/ojewpbyb/public_html/sendEmail.php(73): sendWithdrawalNotification('loovoour@gmail....', '100')
+#1 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 59
+[03-Dec-2024 16:10:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:59
+Stack trace:
+#0 /home/ojewpbyb/public_html/sendEmail.php(73): sendWithdrawalNotification('loovoour@gmail....', '100')
+#1 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 59
+[03-Dec-2024 16:10:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/sendEmail.php:59
+Stack trace:
+#0 /home/ojewpbyb/public_html/sendEmail.php(73): sendWithdrawalNotification('loovoour@gmail....', '100')
+#1 {main}
+  thrown in /home/ojewpbyb/public_html/sendEmail.php on line 59
+[03-Dec-2024 16:27:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/test.php:59
+Stack trace:
+#0 /home/ojewpbyb/public_html/test.php(72): sendWithdrawalNotification('loovoour@gmail....', '100')
+#1 {main}
+  thrown in /home/ojewpbyb/public_html/test.php on line 59
+[03-Dec-2024 16:28:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/ojewpbyb/public_html/test.php:63
+Stack trace:
+#0 /home/ojewpbyb/public_html/test.php(76): sendWithdrawalNotification('loovoour@gmail....', '100')
+#1 {main}
+  thrown in /home/ojewpbyb/public_html/test.php on line 63
+[04-Dec-2024 09:46:10 UTC] Email sent successfully to ssmknz1@gmail.com
+[04-Dec-2024 09:46:58 UTC] Email sent successfully to ssmknz1@gmail.com
+[04-Dec-2024 09:49:21 UTC] PHP Warning:  Undefined array key "subject" in /home/ojewpbyb/public_html/sendEmail.php on line 53
+[04-Dec-2024 09:49:22 UTC] Email sent successfully to ssmknz1@gmail.com
+[04-Dec-2024 09:50:23 UTC] Email sent successfully to ssmknz1@gmail.com
+[04-Dec-2024 16:06:22 UTC] Email sent successfully to ssmknz1@gmail.com

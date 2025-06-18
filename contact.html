@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Lafo Events - Event Rentals & Management in Pinetown & Pietermaritzburg | Lafo Events | VIP</title>
+    <meta name="description" content="Contact Lafo Events for luxurious event rentals and management in Pinetown and Pietermaritzburg. Let us make your event unforgettable.">
+    <link rel="icon" href="images/icon.png" type="image">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container">
+            <!-- New container for logo and hamburger menu in the same row -->
+            <div class="logo-toggle-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Lafo Events" width="150" height="150">
+                    </a>
+                </div>
+                <!-- Hamburger menu button -->
+                <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+            </div>
+            
+            <!-- Navigation menu -->
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Contact button -->
+            <a href="contact.html" class="contact-button">Contact Us</a>
+        </div>
+        <script>
+        // JavaScript to shrink the header when scrolling
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('main-header');
+            
+        // If the page is scrolled more than 100px, shrink the header
+        if (window.scrollY > 100) {
+            header.classList.add('shrink');
+        } else {
+            header.classList.remove('shrink');
+        }
+        });
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const navToggle = document.querySelector(".nav-toggle");
+                const navMenu = document.querySelector(".nav-menu");
+        
+                navToggle.addEventListener("click", () => {
+                    navMenu.classList.toggle("active");
+                });
+            });
+        </script>
+    </header>
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+            <p>We're here to help you create unforgettable moments. Let's start planning your perfect event today!</p>
+        </div>
+        <img src="images/heroAbout.jpg" alt="Hero Image" class="hero-image">
+    </section>
+
+    <section class="contact-details">
+        <div>
+            <a href="tel:0635628873"><img src="icons/call-footer.png" alt="Phone Icon"></a>
+            <p>+27 63 562 8873</p>
+        </div>
+        <div>
+            <a href="mailto:info@lafoevents.co.za"><img src="icons/email-footer.png" alt="Email Icon"></a>
+            <p>info@lafoevents.com</p>
+        </div>
+        <div>
+            <a href="https://www.google.com/maps/place/30+Surprise+Rd,+Maxmead,+Pinetown,+3610/@-29.8069323,30.8354221,757m/data=!3m2!1e3!4b1!4m6!3m5!1s0x1ef6fe9cc94304d3:0xbd8e661864cdc3!8m2!3d-29.806937!4d30.837997!16s%2Fg%2F11csh52d3z?entry=ttu&g_ep=EgoyMDI0MTAyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img src="icons/location-footer.png" alt="Location Icon"></a>
+            <p>30 Surprise Road, Pinetown, South Africa</p>
+        </div>
+        <div>
+            <img src="icons/www.png" alt="Website Icon">
+            <p>www.lafoevents.com</p>
+        </div>
+    </section>
+    <!-- Social Media Bar -->
+    <section class="social-bar">
+        <a href="https://wa.me/27635628873" target="_blank" class="social-icon">
+            <img src="icons/whatsapp.png" alt="WhatsApp">
+        </a>
+        <a href="https://web.facebook.com/lafoevents.online" target="_blank" class="social-icon">
+            <img src="icons/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.tiktok.com/search?q=lafo%20events&t=1729687366132" target="_blank" class="social-icon">
+            <img src="icons/tiktok.png" alt="TikTok">
+        </a>
+        <a href="https://www.instagram.com/lafo.events/" target="_blank" class="social-icon">
+            <img src="icons/instagram.png" alt="Instagram">
+        </a>
+    </section>
+
+    
+    <section class="contact-form-section" >
+        <div class="contact-form">
+            <form id="contactForm" method="POST">
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                
+                <label for="email">Email Address/Phone Number</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                
+                <label for="guests">Number of guests</label>
+                <input type="number" id="guests" name="guests" placeholder="Number of guests" required>
+
+                <label for="date">Event date</label>
+                <input type="date" id="date" name="date" placeholder="Event Date" required>
+
+                <label for="location">Event Location</label>
+                <input type="text" id="location" name="location" placeholder="Event location" required>
+
+                <label for="theme">Theme</label>
+                <input type="text" id="theme" name="theme" placeholder="Theme" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Message" required></textarea>
+                
+                <button type="submit" name="submit">Send Message</button>
+            </form>
+        </div>
+        <!-- Response paragraph added here -->
+        <p id="formResponse"></p>
+        <div class="slider-container">
+            <div class="slider">
+                <img src="images/gallery/gallery (1).jpg" alt="Image 1">
+                <img src="images/gallery/gallery (7).jpg" alt="Image 7">
+                <img src="images/gallery/gallery (3).jpg" alt="Image 3">
+                <img src="images/gallery/gallery (4).jpg" alt="Image 4">
+                <img src="images/gallery/gallery (5).jpg" alt="Image 5">
+            </div>
+        </div>
+        <script>
+            const slider = document.querySelector('.slider');
+            const images = slider.querySelectorAll('img');
+            let index = 0;
+        
+            function showNextImage() {
+                index = (index + 1) % images.length; // Cycle back to the start
+                slider.style.transform = `translateX(-${index * 100}%)`; // Slide by 100% of the container width
+            }
+        
+            // Automatically slide every 3 seconds
+            setInterval(showNextImage, 3000);
+        </script>                        
+        <script>
+            document.getElementById("contactForm").addEventListener("submit", function (e) {
+                e.preventDefault(); // Stop the form from submitting normally
+                
+                const formData = new FormData(this); // Get form data
+                fetch("sendEmail.php", {
+                    method: "POST",
+                    body: formData
+                })
+                .then(response => response.text())
+                .then(data => {
+                    if (data === "success") {
+                        alert("Message sent successfully!");
+                        document.getElementById("contactForm").reset(); // Clear form fields
+                    } else {
+                        alert("Failed to send the message. Please try again.");
+                    }
+                })
+                .catch(error => {
+                    alert("An error occurred: " + error.message); // Show error message
+                });
+            });
+        </script>       
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <!-- Left: Company Logo & Tagline -->
+            <div class="footer-logo">
+                <h4>Lafo Events | VIP</h4>
+                <img src="images/logo.png" alt="Lafo Events Logo" width="100" height="100">
+            </div>
+    
+            <!-- Center: Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <!-- Right: Contact Info & Social Media -->
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><img src="icons/call-footer.png" alt="Phone Icon"> +27 63 562 8873</p>
+                <p><img src="icons/email-footer.png" alt="Email Icon"> info@lafoevents.com</p>
+                <p><img src="icons/location-footer.png" alt="Address Icon"> 30 Surprise Road, Pinetown, South Africa</p>
+    
+                <!-- Social Media Icons -->
+                <div class="social-media">
+                    <a href="https://wa.me/27635628873" target="_blank">
+                        <img src="icons/whatsapp.png" alt="Instagram Icon">
+                    </a>
+                    <a href="https://web.facebook.com/lafoevents.online" target="_blank">
+                        <img src="icons/facebook.png" alt="Facebook Icon">
+                    </a>
+                    <a href="https://www.tiktok.com/search?q=lafo%20events&t=1729687366132" target="_blank">
+                        <img src="icons/tiktok.png" alt="TikTok Icon">
+                    </a>
+                    <a href="https://www.instagram.com/lafo.events/" target="_blank">
+                        <img src="icons/instagram.png" alt="Instagram Icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Lafo Events & VIP | All Rights Reserved | Website created by <a href="https://linkedin.com/in/siphesihle-mkhwanazi--"  target="_blank">Sphesihle Mkhwanazi</a></p>
+        </div>
+    </footer>
+</body>
+</html>

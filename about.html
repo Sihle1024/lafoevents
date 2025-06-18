@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Event And Lounge Rental Services Since 2018 | Lafo Events | VIP</title>
+    <meta name="description" content="Learn about Lafo Events—committed to delivering stress-free, luxurious event experiences since 2018. Serving Pinetown and Pietermaritzburg with excellence.">
+    <link rel="icon" href="images/icon.png" type="image">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/27635628873" class="whatsapp-button" target="_blank">
+        <img src="icons/whatsappButton.png" alt="WhatsApp">
+    </a>
+
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container">
+            <!-- New container for logo and hamburger menu in the same row -->
+            <div class="logo-toggle-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Lafo Events" width="150" height="150">
+                    </a>
+                </div>
+                <!-- Hamburger menu button -->
+                <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+            </div>
+            
+            <!-- Navigation menu -->
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Contact button -->
+            <a href="contact.html" class="contact-button">Contact Us</a>
+        </div>
+        <script>
+        // JavaScript to shrink the header when scrolling
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('main-header');
+            
+        // If the page is scrolled more than 100px, shrink the header
+        if (window.scrollY > 100) {
+            header.classList.add('shrink');
+        } else {
+            header.classList.remove('shrink');
+        }
+    });
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const navToggle = document.querySelector(".nav-toggle");
+                const navMenu = document.querySelector(".nav-menu");
+        
+                navToggle.addEventListener("click", () => {
+                    navMenu.classList.toggle("active");
+                });
+            });
+        </script>
+    </header>
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>About Us</h1>
+            <p>Delivering Luxury and Excellence in Every Event Since 2018</p>
+        </div>
+        <img src="images/heroAbout.jpg" alt="Hero Image" class="hero-image">
+    </section>
+
+    <main>
+        <div class="welcome-section">
+            <div class="welcome-text">
+                <h2>Welcome to Lafo Events</h2>
+                <p>Established in 2018, Lafo Events has quickly become a trusted name in the event management industry. With head offices located in Pinetown, and services extending to Pinetown and Pietermaritzburg, we pride ourselves on delivering luxurious, seamless event experiences tailored to your unique needs.</p>
+                <p>At Lafo Events, we understand that every event is special and deserves personalized attention. Our dedicated team works tirelessly to ensure that each event reflects the client’s vision and exceeds their expectations. We are committed to creating unforgettable moments that you and your guests will cherish forever.</p>
+            </div>
+            <img src="images/about.jpg" alt="Lafo Events" class="welcome-image">
+        </div>
+        
+        <section class="vision-values-section">
+            <div class="card">
+                <h2>Our Vision</h2>
+                <p>Our vision is simple: to offer luxury and peace of mind to every client. We believe that events should be stress-free and enjoyable, which is why we are committed to flawless execution, ensuring that every detail is handled with care. With a reputation of never being late for an event in over a decade, we guarantee punctuality, reliability, and professionalism for all your event needs.</p>
+            </div>
+
+            <div class="card">
+                <h2>Our Mission</h2>
+                <p>Our mission is to craft luxurious, unforgettable experiences with meticulous attention to detail. We are dedicated to ensuring every event is stress-free and perfectly executed, leaving clients with peace of mind and joyous memories. With our commitment to reliability, punctuality, and unparalleled professionalism, we strive to exceed expectations and make every occasion extraordinary.</p>
+            </div>
+        
+            <div class="card">
+                <h2>Our Values</h2>
+                <ul>
+                    <li><strong>Luxury:</strong> Providing a luxurious experience for every client.</li>
+                    <li><strong>Precision:</strong> Ensuring meticulous planning and attention to detail.</li>
+                    <li><strong>Reliability:</strong> Building trust through punctuality and dependability.</li>
+                    <li><strong>Creativity:</strong> Embracing innovative ideas tailored to unique visions.</li>
+                    <li><strong>Client-Centricity:</strong> Prioritizing the needs and preferences of our clients.</li>
+                    <li><strong>Professionalism:</strong> Maintaining clear communication and respect.</li>
+                </ul>
+            </div>
+        </section>
+        
+    </main>
+
+    <section class="why-choose-us">
+        <h2>Why Choose Us</h2>
+        <div class="why-cards">
+            <div class="why-card">
+                <img src="icons/reliable.png" alt="Punctuality Icon">
+                <h3>Unmatched Reliability</h3>
+                <p>We have a proven track record of timeliness, ensuring your event goes off without a hitch.</p>
+            </div>
+            <div class="why-card">
+                <img src="icons/luxury.png" alt="Reliability Icon">
+                <h3>Luxury Event Solutions</h3>
+                <p>We offer top-tier event setups and experiences that reflect your style and aspirations.</p>
+            </div>
+            <div class="why-card">
+                <img src="icons/services.png" alt="Professionalism Icon">
+                <h3>Personalized Service</h3>
+                <p>Every event is unique, and we work closely with our clients to tailor solutions that exceed expectations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2>Lafo Events – Where Luxury Meets Precision</h2>
+        <p>Every moment perfectly planned. Whether it’s a wedding, corporate event, or private celebration, we’re dedicated to bringing your vision to life!</p>
+        <a href="contact.html" class="cta-button">Contact Us Today</a>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <!-- Left: Company Logo & Tagline -->
+            <div class="footer-logo">
+                <h4>Lafo Events | VIP</h4>
+                <img src="images/logo.png" alt="Lafo Events Logo" width="100" height="100">
+            </div>
+    
+            <!-- Center: Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <!-- Right: Contact Info & Social Media -->
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><img src="icons/call-footer.png" alt="Phone Icon"> +27 63 562 8873</p>
+                <p><img src="icons/email-footer.png" alt="Email Icon"> info@lafoevents.com</p>
+                <p><img src="icons/location-footer.png" alt="Address Icon"> 30 Surprise Road, Pinetown, South Africa</p>
+    
+                <!-- Social Media Icons -->
+                <div class="social-media">
+                    <a href="https://wa.me/27635628873" target="_blank">
+                        <img src="icons/whatsapp.png" alt="Instagram Icon">
+                    </a>
+                    <a href="https://web.facebook.com/lafoevents.online" target="_blank">
+                        <img src="icons/facebook.png" alt="Facebook Icon">
+                    </a>
+                    <a href="https://www.tiktok.com/search?q=lafo%20events&t=1729687366132" target="_blank">
+                        <img src="icons/tiktok.png" alt="TikTok Icon">
+                    </a>
+                    <a href="https://www.instagram.com/lafo.events/" target="_blank">
+                        <img src="icons/instagram.png" alt="Instagram Icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Lafo Events & VIP | All Rights Reserved | Website created by <a href="https://linkedin.com/in/siphesihle-mkhwanazi--"  target="_blank">Sphesihle Mkhwanazi</a></p>
+        </div>
+    </footer>
+</body>
+</html>
